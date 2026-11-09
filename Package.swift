@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATAppConsentAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATAppConsentAdapter.zip",
-            checksum: "2622c5e97e994a4f37a8a49d547319b7275bb952a633c37b15488fd1818e74f4"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATAppConsentAdapter.zip",
+            checksum: "d61e780a50b6b9d301a47d1016dd8691f70dd2aa575465798cb77e80a78203e1"
         ),
         .binaryTarget(
             name: "AATAppConsent",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AppConsent.zip",
-            checksum: "ddc79d90015d165953ce4556bc2e87b345c03b3338328bcde2f86e2140272f9b"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AppConsent.zip",
+            checksum: "ffb8695618df697f33a8f53961f5ed3a7ad7d4c1ad1f215f1b97dcdb8c04a8e2"
         ),
     ]
 )
